@@ -24,12 +24,7 @@ class Calculator
     self
   end
 
-  def factorial_inject(num)
-    @result = (1..num).inject(:*)
-    self
-  end
-
-  def factorial_reduce(num)
+  def factorial(num)
     @result = (1..num).reduce(1, :*)
     self
   end
@@ -49,4 +44,4 @@ end
 calc = Calculator.new
 calc.add(5).add(10).display_result
 
-calc.reset.factorial_reduce(5).display_result
+calc.reset.factorial(5).display_result
