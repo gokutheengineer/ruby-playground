@@ -11,5 +11,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.8.0, ruby-2.6.10-p210) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.13.8, ruby-2.6.10-p210) [gem]" level="application" />
   </component>
 </module>
